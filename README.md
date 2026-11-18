@@ -18,7 +18,7 @@
 ## Быстрый старт
 
 ```bash
-git clone <URL-этого-репозитория>
+git clone https://github.com/vibecode-or-death/vibecoders.git
 cd vibecoders
 cat goals/ROADMAP.md      # куда мы идём
 cat discord/README.md     # как закинуть посты в Discord
