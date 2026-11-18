@@ -20,7 +20,7 @@ if ! gh api "/orgs/$ORG" >/dev/null 2>&1; then
 fi
 
 echo "📦 Переносим $REPO → $ORG ..."
-gh api -X POST "repos/niasikwq/$REPO/transfers" \
+gh api -X POST "repos/niasikwq/$REPO/transfer" \
   -f new_owner="$ORG" \
   -H "Accept: application/vnd.github+json" >/dev/null
 
