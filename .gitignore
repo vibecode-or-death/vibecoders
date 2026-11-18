@@ -1,0 +1,24 @@
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Зависимости и сборки
+node_modules/
+dist/
+build/
+.next/
+.vite/
+
+# Логи и временные файлы
+*.log
+/tmp/
+.DS_Store
+Thumbs.db
+
+# Локальные редакторы
+.vscode/
+.idea/
+*.swp
